@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import ToastProvider from '../../../components/ToastProvider';
+import Toast from '../../../components/Toast';
 
-function FlashMsgExercise() {
+function FlashMsgExercise({ searchParams }) {
+
   return (
     <main>
       <h1>Welcome to my website!</h1>
